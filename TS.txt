@@ -1,0 +1,37 @@
+TypeScript is all about Type Safety
+
+In JavaScript we are allowed to do these things:
+
+Adding an Integer & a String
+num = 10 + "Hell"
+
+Adding a null value and a number
+num = null + 10
+
+And we get the results to these in Javascript based on certain rules defined in javascript , but these should not be allowed and typescript is used to prevent us from writing types like this.
+
+TypeScript does Static checking , which means that Typescript analyzes our code and helps us in understanding that we might be making a potential error without even running the code and getting the errors at the runtime itself.
+
+In simple word it analyzes the code as we type it.
+
+NOTE : TypeScript is a Development Tool , the project still runs in Javascript. TypeScript is just a layer on top of Javascript. It helps to write a more scalable and maintainable code. The chances of producing error in Javascript is much less. It is like a wrapper around Javascript.
+
+
+
+Five key differences between TypeScript and JavaScript:
+
+Type Annotations: TypeScript is a statically-typed superset of JavaScript, which means it allows for type annotations. Type annotations enable developers to specify the data types of variables, function parameters, and return values. This helps catch type-related errors during development, making the code more robust and reliable. JavaScript, on the other hand, is dynamically-typed, meaning data types are determined at runtime and not explicitly defined.
+
+Optional Static Typing: TypeScript provides optional static typing, which means developers can choose to add type annotations or use type inference to automatically deduce the types of variables. This allows for early detection of type-related errors during development. JavaScript, on the other hand, does not have built-in static typing and relies solely on runtime type checking.
+
+Advanced Features: TypeScript includes many advanced features that are not present in JavaScript, such as interfaces, decorators, enums, and advanced type inference capabilities. These features enhance the developer experience by providing additional tools for code organization, documentation, and type checking. JavaScript, being a simpler language, does not have these advanced features.
+
+Transpilation: TypeScript code is transpiled into plain JavaScript code before being executed by browsers or other JavaScript environments. This means that TypeScript code can run in any environment that supports JavaScript, including older browsers. JavaScript code, on the other hand, does not need to go through a transpilation process as it is already in a format that can be executed directly by browsers.
+
+Tooling and IDE Support: TypeScript has excellent tooling and IDE support due to its static typing and advanced features. TypeScript code editors provide rich autocompletion suggestions, error checking, and code navigation, which can significantly enhance productivity. JavaScript, being dynamically-typed, does not offer the same level of tooling and IDE support as TypeScript.
+
+Overall, TypeScript offers stronger type checking, advanced features, and improved developer experience compared to JavaScript. However, JavaScript remains a popular and widely-used language for web development due to its simplicity and broad compatibility with different environments.
+
+
+
+

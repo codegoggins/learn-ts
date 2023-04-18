@@ -1,0 +1,22 @@
+TypeScript Installation
+
+Globally Installing TypeScript
+
+(CLI or git bash)
+
+npm install -g typescript
+
+get version in CLI -> tsc -v
+
+We create an intro.ts file
+
+In terminal , write tsc intro.ts
+
+Then a js file with same name and code is created
+
+This is what typescript does , it converts your typescript code into javascript.
+
+When we write code and do tsc intro.ts 
+
+The code will be same as intro.ts in the js file , the only change is we will be able to see errors in the TS filw that we don't usually get while writing javascript code.
+
